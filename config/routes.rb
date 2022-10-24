@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  resources :monsters, only: [:index]
+  get 'monster/new'
+  resources :monsters, only: [:index, :update, :create, :edit, :new, :show]
 
   root "monsters#index"
 end

@@ -1,2 +1,38 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap-icons/font/bootstrap-icons';
+
+.title {
+    color: orange
+  }
+
+.destacado {
+    color: red
+  }
+  
+.deletebutton {
+    background-color: red;
+    color: white
+  }
+  
+.otherbutton {
+    background-color: darkblue;
+    color: white
+  }
+
+.twitter {
+    background-color: lightblue;
+    color: white
+  }
+
+.thedescription {
+    background-color: black;
+    color: white
+  }
+
+.campos {
+    background-color: darkcyan;
+    color: white
+  }

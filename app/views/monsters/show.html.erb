@@ -1,1 +1,21 @@
-<%# Update me %><%= @monster.inspect %>
+
+
+
+<h1> <%= @monster.name %> </h1> 
+
+<div class="row">
+    <div class="col-sm">
+        <div class="thedescription"> Descripcion </div>
+        <p>  <%= @monster.description %>  </p>
+        <button class="deletebutton"> Eliminar </button>
+        <%= link_to 'Editar', edit_monster_path, class: "otherbutton"  %>
+    </div>
+    <div class="col-sm">
+        <div class="twitter"> Twitter </div>
+        <% @monster.tweets.each do |tweet| %>
+            <p class="Tweets"> <%=tweet.content%> </p>
+        <% end %>
+    </div>
+</div>
+
+Copyright © 2022
